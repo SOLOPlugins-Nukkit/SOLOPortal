@@ -1,0 +1,11 @@
+name: SOLOPortal
+version: "0.0.1"
+api: ["1.0.0"]
+author: solo
+main: solo.soloportal.Main
+commands:
+  워프:
+    aliases: warp
+    usage: /워프 [args...]
+    description: 워프 명령어
+    permission: op
